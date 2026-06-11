@@ -1,0 +1,1 @@
+@echo off\nchcp 65001 >nul\necho.\necho ========================================\necho   Claude Code - AI-Powered Code Editor\necho ========================================\necho.\necho 正在启动应用，请稍候...\necho.\ncd /d D:\\claude-code\nnpm run dev\npause\n
