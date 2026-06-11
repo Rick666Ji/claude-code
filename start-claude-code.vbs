@@ -1,0 +1,1 @@
+' Claude Code - 无窗口启动脚本\n' VBScript for silent launch of Claude Code without command window\n' 这个脚本会在后台启动应用，不会显示命令行窗口\n\nSet objShell = CreateObject(\"WScript.Shell\")\nobjShell.Run \"cmd /c cd /d D:\\claude-code && npm run dev\", 0, False\n\n' 显示启动提示\nobjShell.Popup \"Claude Code 正在启动...\", 2, \"Claude Code\", 64\n
